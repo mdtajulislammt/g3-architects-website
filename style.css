@@ -17,6 +17,7 @@ header{
      display: flex;
      justify-content: space-between;
      align-items: center;
+    
 }
 
 .navbar >ul{
@@ -24,7 +25,7 @@ header{
      list-style: none;
 }
 .navbar li{
-     margin-left: 30px;
+     margin-left: 50px;
      
 }
 .navbar a:hover{
@@ -252,14 +253,27 @@ footer h3{
      header{
           padding: 20px;
      }
+     
+    .navbar a{
+        font-size: 1rem;
+        font-weight: 500;
+       
+   
+   }
+     .navbar li{
+      margin-left: 1.5rem;
+     } 
+     .navbar h1{
+        margin-left: 50px; 
+     }
+   
      .navbar{
           flex-direction: column;
+         margin-left: -50px;
      }
 
      .banner-content h1{
-          color: #131313;
           font-size: 2rem;
-          font-weight: 700;
      
       }
       .btn-primery{
@@ -271,7 +285,7 @@ footer h3{
           margin-bottom:10px;
       } 
 
-      /* team-section */
+      /*------------------ team-section------------------- */
       .team-container{
           flex-direction: column;
       }
@@ -282,6 +296,9 @@ footer h3{
           width: 140px;
           height: 140px;
       }
+      .team-content{
+        margin-left: 0px;
+     }
 /* -----------------------------Feature section----------------------- */
 .feature-container{
     flex-direction: column-reverse;
@@ -289,18 +306,22 @@ footer h3{
     margin-top: 20px;
 }
 .experience-card{
-    left: 20%;
-    
-
- }
+    left: 12%;
+    }
+    .experience-card h1{
+        font-size: 2rem;
+    }
  .feature-content {
     width: 100%;
+ }
+ .feature-content h1{
+    font-size: 2rem;
  }
 /* ---------------------facts section ------------- */
 
  .facts-card-content{
     flex-direction: column;
-    margin-left: 70px;
+    margin-left: 40px;
     row-gap: 15px;
     
 
@@ -327,12 +348,12 @@ footer h3{
     margin: 80px 20px;
     font-size: 0.8rem;
 }
-}
+ }
 
  /* tablet medium */
  @media screen and (min-width:576px) and (max-width:960px) {
      .navbar{
-          width: 800px;
+          width: 700px;
           margin: 0 auto;
      }   
      header{
